@@ -18,26 +18,7 @@ body {
   flex-direction: column;
   
 }
-.message.received {
-    background-color: #ffffff;
-    align-self: flex-start;
-    border-top-left-radius: 4px;
-}
 
-.message.sent {
-    background: linear-gradient(135deg, #4a90e2 0%, #34475a 100%);
-    color: white;
-    align-self: flex-end;
-    border-top-right-radius: 4px;
-}
-
-.message .time {
-    font-size: 0.7em;
-    color: #7f8c8d;
-    position: absolute;
-    bottom: -15px;
-    right: 10px;
-}
 #header {
   display: flex;
   justify-content: space-between;
@@ -810,5 +791,6 @@ body {
         display: flex;
     }
 }
+
 
 
