@@ -18,6 +18,13 @@ body {
   flex-direction: column;
   
 }
+  .message.received {
+  margin-bottom: 20px;
+}
+
+.message.sent {
+ margin-bottom: 20px;
+}
 
 #header {
   display: flex;
@@ -791,6 +798,7 @@ body {
         display: flex;
     }
 }
+
 
 
 
