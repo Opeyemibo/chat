@@ -250,7 +250,7 @@ if (chatInputField) {
     });
 }
 
-const searchInput = document.querySelector('#search input');
+
 
 const storeOriginalText = (element) => {
     if (element && !element.dataset.originalText) {
@@ -349,5 +349,6 @@ if (searchInput) {
         runSearch(event.target.value);
     });
 }
+
 
 
