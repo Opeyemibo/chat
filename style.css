@@ -67,6 +67,29 @@ body {
    text-decoration: none;
    font-size: 14px;
 }
+/* Back Button */
+.back-btn {
+  display: none; /* hidden on desktop */
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-color, #333);
+  cursor: pointer;
+  margin-right: 10px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.back-btn:hover {
+  color: var(--accent-color, #007bff);
+  transform: scale(1.1);
+}
+
+/* Show Back Button on Mobile */
+@media (max-width: 768px) {
+  .back-btn {
+    display: inline-block;
+  }
+}
 #menu li:hover {
   background-color: #f5f5f5;
 }
@@ -798,6 +821,7 @@ body {
         display: flex;
     }
 }
+
 
 
 
