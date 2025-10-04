@@ -350,5 +350,9 @@ if (searchInput) {
     });
 }
 
+document.getElementById('back-btn').addEventListener('click', () => {
+  document.getElementById('chat-space').classList.remove('active');
+  document.getElementById('webchat').classList.remove('hidden');
+});
 
 
