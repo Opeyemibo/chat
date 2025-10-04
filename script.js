@@ -250,7 +250,7 @@ if (chatInputField) {
     });
 }
 
-const searchInput = document.querySelector('#search input');
+
 
 const storeOriginalText = (element) => {
     if (element && !element.dataset.originalText) {
@@ -356,3 +356,4 @@ document.getElementById('back-btn').addEventListener('click', () => {
   document.getElementById('chat-space').classList.remove('active');
   document.getElementById('webchat').classList.remove('hidden');
 });
+
